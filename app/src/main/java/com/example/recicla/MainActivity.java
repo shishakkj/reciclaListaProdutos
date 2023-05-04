@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         recycler = findViewById(R.id.rv);
         recycler.setHasFixedSize(true);
         recycler.setLayoutManager(new LinearLayoutManager(this));
-        cadastroInicial();
         adaptador = new Adaptador(this, listaProdutos, new Adaptador.OnItemClickListener() {
             @Override
             public void onItemClick(Produto p) {
@@ -37,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Cadastro.class);
         startActivity(i);
         Cadastro.listaProdutos = listaProdutos;
-    }
-    public void cadastroInicial(){
-
     }
 
     @Override
