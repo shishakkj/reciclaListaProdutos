@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700290079413",
+    "project_id": "cadastro-de-produtos-81909",
+    "storage_bucket": "cadastro-de-produtos-81909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700290079413:android:c7adebcfbebaa5ffb9bcfc",
+        "android_client_info": {
+          "package_name": "com.example.recicla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700290079413-8hhf9dhu4bvnmlifd6e5rugp1a6s1188.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsmKTbHlgcddobbz7QJwQkCIBB19DT-mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700290079413-8hhf9dhu4bvnmlifd6e5rugp1a6s1188.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
